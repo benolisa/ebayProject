@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java/co/uk/ebay/features"
 		 ,glue = {"co/uk/ebay/hooks", "co/uk/ebay/stepdefinition"}
-		,tags = {"~@ignore", "@smokeTest"}
+		,tags = {"~@ignore"}
 		
 		)
 public class TestRunner {
